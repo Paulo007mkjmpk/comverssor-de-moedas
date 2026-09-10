@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="./style.css" />
+    
     <title>Deve - Convert Money</title>
 </head>
 
@@ -33,16 +34,16 @@
 
         <label>
             Valor
-            <input placeholder="Digite o valor" />
+            <input class="input-currency" placeholder="Digite o valor" />
         </label>
 
-        <button>Converter</button>
+        <button class="convert-button">Converter</button>
 
         <section>
             <div class="currency-box">
                 <img src="./assets/real.png" alt="logo-moeda-a-converter" />
                 <p class="currency">Real</p>
-                <p class="currency-value">R$ 0,00</p>
+                <p class="currency-value-to-convert">R$ 0,00</p>
             </div>
 
             <img class="arrow-img" src="./assets/seta.png" alt="seta" />
@@ -57,5 +58,6 @@
 
 
 </body>
+<script src="./scripts.js"></script>
 
 </html>
